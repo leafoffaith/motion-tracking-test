@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piano</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.7.7/Tone.js"></script>
+    <script src="https://unpkg.com/@webcomponents/webcomponentsjs@^2/webcomponents-bundle.js"></script>
+    <script src="https://unpkg.com/tone"></script>
+    <script src="https://unpkg.com/@tonejs/ui"></script>
+</head>
+<body>
+  
+
+  <video class="videobox canvasbox" autoplay="autoplay" id="video"></video>
+  <canvas id="canvas" class="border canvasbox"></canvas>
+    <!-- <div class="notes">
+        <h3>C</h3>
+        <h3>D</h3>
+        <h3>E</h3>
+        <h3>F</h3>
+        <h3>G</h3>
+        <h3>A</h3>
+        <h3>B</h3>
+    </div> -->
+        
+  <!-- Load the handtrackjs model. -->
+  <script src="https://cdn.jsdelivr.net/npm/handtrackjs/dist/handtrack.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
